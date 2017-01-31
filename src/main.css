@@ -1,6 +1,13 @@
+
 @font-face {
 	font-family: 'Courier Prime Code';
-	src: url('../courierPrimeCodeFont/Courier Prime Code.ttf');
+	src: url('../courierPrimeCodeFont/Courier Prime Code.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: black;
 }
 .container {
 	margin-top: 30;
@@ -12,11 +19,11 @@
 }
 
 #me {
-
+color: red;
 }
 
 #job {
-
+color: white;
 }
 
 .tagline {
@@ -25,10 +32,35 @@
 }
 
 #emphasized {
-
+	font-family: 'Inconsolata'
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 120px;
+	color: white;
 }
 
 #para {
+	margin: 20px;
+	margin-left: 120px;
+	color: white;
+}
 
+
+ul {
+
+	color:yellow;
+}
+
+@media screen and (max-width: 630px) {
+	.header {
+		font-size: 10pt;
+	} 
+
+}
+
+@media screen and (max-width: 530px) {
+	.header {
+		font-size: 8pt;
+	}
 }
 
