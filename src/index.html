@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  
   <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Inconsolata">
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
@@ -16,7 +16,8 @@
 <body>
 <div class='container'>
 	<header class='header'>
-		<h1 id='me'>#!/usr/bin/james</h1>
+		<h1 class='me'>#!/usr/bin/james</h1>
+		<em><stronger>First time writng html, css, or js in ~6 months.</stronger></em>
 				
 		<h2 id='job'>  </h2>
 	</header>
@@ -29,21 +30,32 @@
 		
 		<p id='para'>I do a lot of things, kind of hard to sum it up breifly.
 		</p>
+		<img id='droid' width='150px' height='auto' src='http://storage.googleapis.com/ix_choosemuse/uploads/2016/02/android-logo.png' alt='droid'/>
 
 		<div class='skills'>
+			<h3> I have many focuses within IT, here are my top interests.</h3>
+			<p>I started taking coding seriously with web development around 14 months ago, 
+			and found myself migrating to back end nodejs and php, I now focus mainly on Java, Python, and
+			the GNU toolkit for <span id='linux'>Linux</span>/<span id='bsd'>BSD</span>.</p>
 			<ul>
 				<li>JavaScript/NodeJS</li>
-				<li>Python Automation</li>
+				<li>Python Automation / Java on Windows & Android</li>
 				<li>HTML</li>
 			</ul>
 		</div>
 
+		<footer class='contact'>
+			<h3>Contact me for any questions!</h3>
+			<p>'above' on <a href='https://freenode.net/kb/answer/chat' target='_blank'>Freenode</a> <span class='green'>I</span><span class='gold'>R</span><span class='red'>C</span>. </p>
+		</footer>
 
 
 
 	</div>
 
 </div>
+	<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src='port.js'></script>
 </body>
 </html>
